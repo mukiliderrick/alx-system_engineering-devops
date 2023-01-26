@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# creating bash script with util
+x=0
+until [ $x -gt 9 ]
+do
+	echo "Best School"
+	((x++))
+done
